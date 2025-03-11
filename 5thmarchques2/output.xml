@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<user>
+    <user>
+        <id>123</id>
+        <name>John Doe</name>
+        <email>john.doe@example.com</email>
+        <address>
+            <street>123 Main St</street>
+            <city>Anytown</city>
+            <state>CA</state>
+            <zip>12345</zip>
+        </address>
+        <transactions>
+            <transactions>
+                <date>2025-02-01</date>
+                <description>Deposit</description>
+                <amount>1000.0</amount>
+            </transactions>
+            <transactions>
+                <date>2025-02-15</date>
+                <description>Withdrawal</description>
+                <amount>-200.0</amount>
+            </transactions>
+        </transactions>
+    </user>
+</user>

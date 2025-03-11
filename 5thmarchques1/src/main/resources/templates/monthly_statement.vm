@@ -1,0 +1,23 @@
+## User Information
+User ID: $user.id
+Name: $user.name
+Email: $user.email
+Address: $user.address
+Customer Account Number: $user.accountNumber
+
+## Transaction History
+#foreach ($transaction in $transactions)
+Date: $transaction.date
+Description: $transaction.description
+Amount: $transaction.amount
+Balance: $transaction.balance
+#end
+
+## Account Summary
+Total Deposits: $summary.totalDeposits
+Total Withdrawals: $summary.totalWithdrawals
+Ending Balance: $summary.endingBalance
+
+## Bank Details
+Bank Name: $bank.name
+Bank Address: $bank.address
